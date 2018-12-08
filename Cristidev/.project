@@ -3,6 +3,7 @@
 	<name>Cristidev</name>
 	<comment></comment>
 	<projects>
+		<project>header</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

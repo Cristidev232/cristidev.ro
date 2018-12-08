@@ -2,6 +2,9 @@
     <wb-module deploy-name="Cristidev">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="header.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/header/header">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="Cristidev"/>
         <property name="java-output-path" value="/Cristidev/build/classes"/>
     </wb-module>

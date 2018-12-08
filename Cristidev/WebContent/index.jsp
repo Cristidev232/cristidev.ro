@@ -1,12 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Cristidev</title>
-</head>
-<body>
-<p>just a page</p>
-</body>
-</html>
+<% pageContext.setAttribute("title","HomePage ::D");
+   pageContext.setAttribute("section","home");
+%>
+
+<%@include file="inc/header.jsp" %>
+
+<%@include file="inc/index-content.jsp" %>
+
+<%@include file="inc/footer.jsp"%>
